@@ -1,0 +1,5 @@
+p=input('press')
+p1=list(p)
+p1.remove('-')
+p2=''.join(p1)
+print(p2)

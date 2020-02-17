@@ -1,0 +1,6 @@
+Dmoney=float(input('Enter amount of loan :'))
+rate=float(input('Enter interest rate(%) :'))
+ny=float(input('Enter number of years :'))
+i=rate/(1200)
+monthlyPay=(i*Dmoney)/(1-((1+i)**(-12*ny)))
+print('Monthly Payment: ${0:,.2f}'.format(monthlyPay))
